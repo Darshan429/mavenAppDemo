@@ -24,7 +24,7 @@ pipeline{
 
     stage('Runapplication'){
       steps{
-        sh 'java -jar target/myMavenApp-1.0-SNAPSHOT.jar
+        sh 'java -jar target/MyMavenApp-1.0-SNAPSHOT.jar
       }
       
   }
